@@ -1,0 +1,4 @@
+node_modules
+!resources/gamemode/resource.cfg
+resources/gamemode/*
+server.log
