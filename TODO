@@ -1,16 +1,61 @@
 Build process:
   ☐ Typescript support
     ☐ Client & Server
-      ✔ Webpack @done(19-06-26 00:13)
-      ☐ Babel
-        ☐ Learn how tsconfig influences babel build process
+      ✘ Webpack @cancelled(19-07-03 23:06)
+      ✘ Babel @cancelled(19-07-03 23:06)
+        ✔ Learn how tsconfig influences babel build process @done(19-06-26 20:22)
+        tsconfig.json determines how TypeScript does type checking. It also has some options affecting how TypeScript emits files, but since you're using babel instead, those don't apply. (https://github.com/babel/babel/issues/9028#issuecomment-439484274)
         ☐ Should output .mjs files (esnext modules)
       ☐ VS Code 
         ☐ ESLint
-        ☐ Map alt:V typings
+        ✔ Map alt:V typings @done(19-07-03 23:07)
     ☐ UI (React.js)
       ☐ Custom webpack config (no create-react-app)
         For easier hot-reload integration in-game.
 Prerequisites:
   ☐ Move UI from RAGE:MP project to alt:V
     Would be nice to test it while at it.
+Core:
+  ✔ env configs @done(19-07-06 18:18)
+  ✔ DI @done(19-07-06 19:30)
+  ✔ Database @done(19-07-06 19:29)
+    ✔ Connection @done(19-07-06 19:18)
+    ✔ Models @done(19-07-06 19:29)
+      User, Character
+  ✘ alt:V abstractions @cancelled(19-07-06 19:36)
+    Player, Vehicle, Entity and other classes
+Gameplay:
+  ☐ Auth
+    Automatically register player and login w/o authentication
+  ☐ Quests
+  ☐ Daily
+    Drive for 30 minutes
+    Earn X money
+    Visit A
+    ...
+  ☐ Story
+    Talk to A
+    Get me X of A
+    Help A to kill B
+    ...
+  ☐ Inventory & items
+  ☐ NPCs
+    ☐ For quests
+    ☐ May attack you
+    ☐ Some can die
+  ☐ Part-time jobs
+    ☐ Wood work
+    ☐ Mining
+    ☐ Crafting
+  ☐ Factions
+    ☐ Healers
+    ☐ Law
+    ☐ Law enforcment
+    ☐ Builders (Construction)
+  ☐ Private companies
+    ☐ Taxi
+    ☐ Mechanics
+  ☐ Activities
+    ☐ Fishing
+    ☐ Cooking
+    ☐ Hunting

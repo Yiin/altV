@@ -1,8 +1,9 @@
-[23:45:22] alt:V Server, build #538, branch master
-[23:45:22] C:\altV
-[23:45:22] Starting alt:V Server on 0.0.0.0:7788
-[23:45:22] Starting resource gamemode
-[23:45:22] Started resource gamemode
-[23:45:22] Starting HTTP server
-[23:45:22] Server started
-[23:45:22] Started HTTP server on 0.0.0.0:7788
+[04:15:44] alt:V Server, build #726, branch beta
+[04:15:44] Starting alt:V Server on 0.0.0.0:7788
+[04:15:44] Starting resource gamemode
+[04:15:44] Started resource gamemode
+[04:15:44] Starting HTTP server
+[04:15:44] Server started
+[04:15:44] Started HTTP server on 0.0.0.0:7788
+[04:15:52] emitClient	rpc:call	{"rpc":"test","id":"2n6vx6yt10b","args":[42,"asd"]}	
+[04:16:01] ALL GOOD!	
